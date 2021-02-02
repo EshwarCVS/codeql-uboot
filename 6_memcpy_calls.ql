@@ -1,5 +1,5 @@
 import cpp
 
-from Class c
-where c.getClass().getProps() = "memcpy"
+from FunctionCall c
+where c.getTarget().getName() = "memcpy"
 select c
